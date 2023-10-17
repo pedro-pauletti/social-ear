@@ -44,7 +44,7 @@ Antes de utilizar o **SocialEar**, certifique-se de que você tenha os seguintes
 
 ## Contato
 
-Se você tiver alguma dúvida, feedback ou precisar de suporte, não hesite em nos contatar pelo seguinte email: [seu-email@example.com](mailto:pedroton@live.com).
+Se você tiver alguma dúvida, feedback ou precisar de suporte, não hesite em nos contatar pelo seguinte email: [pedroton@live.com](mailto:pedroton@live.com).
 
 Esperamos que o **SocialEar** seja uma ferramenta valiosa para melhorar a acessibilidade e a qualidade de vida de pessoas com deficiência auditiva. Obrigado por apoiar este projeto e torná-lo uma realidade.
 
