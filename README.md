@@ -1,6 +1,8 @@
 # SocialEar: Aumentando a Acessibilidade para Deficientes Auditivos
 
-![SocialEar Logo](SocialEar.svg)
+<p align="center">
+  <img src="SocialEar.svg" alt="SocialEar Logo" width="300">
+</p
 
 O **SocialEar** é uma aplicação web inovadora que visa melhorar a acessibilidade para pessoas com deficiência auditiva, especialmente em ambientes sociais. Ele utiliza modelos de aprendizado de máquina para classificar e apresentar os sons do ambiente de forma intuitiva, oferecendo uma experiência mais inclusiva. Além disso, a aplicação inclui recursos de conversão de texto em fala (text-to-speech) e reconhecimento automático de fala (ASR), juntamente com um chatbot de perguntas e respostas (Q&A) para fornecer informações e suporte aos usuários.
 
