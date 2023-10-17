@@ -1,6 +1,6 @@
 # SocialEar: Aumentando a Acessibilidade para Deficientes Auditivos
 
-![SocialEar Logo](SocialEar-Icon.png)
+![SocialEar Logo](SocialEar.svg)
 
 O **SocialEar** é uma aplicação web inovadora que visa melhorar a acessibilidade para pessoas com deficiência auditiva, especialmente em ambientes sociais. Ele utiliza modelos de aprendizado de máquina para classificar e apresentar os sons do ambiente de forma intuitiva, oferecendo uma experiência mais inclusiva. Além disso, a aplicação inclui recursos de conversão de texto em fala (text-to-speech) e reconhecimento automático de fala (ASR), juntamente com um chatbot de perguntas e respostas (Q&A) para fornecer informações e suporte aos usuários.
 
@@ -31,8 +31,8 @@ Antes de utilizar o **SocialEar**, certifique-se de que você tenha os seguintes
 
 ## Como Usar o **SocialEar**
 
-1. Acesse a aplicação através do seguinte link: [Inserir URL da aplicação]([inserir-link-para-a-sua-aplicacao](https://pedro-pauletti.github.io/social-ear/)).
-
+1. Acesse a aplicação através do seguinte link: https://pedro-pauletti.github.io/social-ear/ 
+   
 2. Na página inicial, você pode escolher o idioma (inglês ou português) para a exibição dos resultados.
 
 3. Utilize as seguintes funcionalidades:
