@@ -25,6 +25,39 @@ gradio-app {
     max-height: 20vh; 
 }
 
+
+/* Estilize as bandeiras para que fiquem pequenas ao lado das opções */
+.language-buttons label {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    justify-content: center;
+}
+
+.language-buttons img {
+    width: 24px; /* Defina a largura desejada para as bandeiras */
+    height: auto; /* Mantém a proporção */
+    margin-right: 5px; /* Espaçamento entre a bandeira e o texto */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+
+.language-buttons input {
+    display: none; /* Oculta o input padrão */
+}
+
+/* Destaque a opção selecionada */
+.language-buttons input:checked + img {
+    border: 2px solid #007BFF; /* Adicione uma borda para destacar */
+    border-radius: 4px; /* Arredonde as bordas */
+    padding: 2px; /* Adicione um pouco de espaço dentro da borda */
+}
+
+
+
+
 @media (max-width: 768px) {
 
     body {

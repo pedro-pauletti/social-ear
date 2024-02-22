@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,44 @@
     <title>SocialEar</title>
 </head>
 <body>
-    >
-    <div class="centered-image">
-        <img src="SocialEar.svg" alt="SocialEar-Logo">
-    </div>
 
-
-    <script
-    	type="module"
-    	src="https://gradio.s3-us-west-2.amazonaws.com/3.47.1/gradio.js"
-    ></script>
+<div class="centered-image">
+    <img src="SocialEar.svg" alt="SocialEar-Logo">
+</div>
     
-    <gradio-app src="https://pedropauletti-social-ear.hf.space"></gradio-app>
+<div class="language-buttons">
+    <label>
+        <input type="radio" name="language" value="english" checked> 
+        <img src="flags\us-flag.png" alt="English Flag"> English
+    </label>
+    <label>
+        <input type="radio" name="language" value="portuguese"> 
+        <img src="flags\br-flag.png" alt="Portuguese Flag"> Portuguese
+    </label>
+</div>
 
-    
+
+
+<gradio-app id="social-ear" src="https://pedropauletti-social-ear.hf.space"></gradio-app>
+
+<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.47.1/gradio.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const languageButtons = document.querySelectorAll('input[name="language"]');
+        const gradioApp = document.getElementById('social-ear');
+
+        languageButtons.forEach(function (button) {
+            button.addEventListener('change', function () {
+                if (button.value === 'english') {
+                    gradioApp.setAttribute('src', 'https://pedropauletti-social-ear.hf.space');
+                } else if (button.value === 'portuguese') {
+                    gradioApp.setAttribute('src', 'https://pedropauletti-social-ear-pt-br.hf.space');
+                }
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
